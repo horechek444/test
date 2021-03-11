@@ -1,0 +1,9 @@
+.legend__identify {
+    width: 89.5px;
+    height: 31.5px;
+    background-color: #ececec;
+    border: solid 2px #cccccc;
+    border-radius: 4px;
+    font-weight: normal;
+    box-sizing: border-box;
+}

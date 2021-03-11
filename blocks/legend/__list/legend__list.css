@@ -1,0 +1,10 @@
+.legend__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    width: 226px;
+    height: 128px;
+    padding: 0 0 0 12px;
+    margin: 0;
+}

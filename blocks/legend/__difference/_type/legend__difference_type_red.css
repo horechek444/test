@@ -1,0 +1,14 @@
+.legend__difference_type_red {
+    animation: scaleRedOpacity 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaleRedOpacity {
+    0% {
+        transform: initial;
+    }
+    100% {
+        transform-origin: left center 0;
+        transform: scaleX(30.5);
+    }
+}

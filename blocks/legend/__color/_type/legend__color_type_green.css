@@ -1,0 +1,15 @@
+.legend__color_type_green {
+    background-color: #70a84b;
+    animation: scaleGreen 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaleGreen {
+    0% {
+        transform: initial;
+    }
+    100% {
+        transform-origin: left center 0;
+        transform: scaleX(31);
+    }
+}

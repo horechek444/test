@@ -1,0 +1,8 @@
+.legend__color {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    height: 25px;
+    border-top-left-radius: 4px;
+    width: 0.5px;
+}

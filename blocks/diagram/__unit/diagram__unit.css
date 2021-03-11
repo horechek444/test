@@ -1,0 +1,25 @@
+.diagram__unit {
+    fill: none;
+    stroke-width: 10;
+}
+
+.diagram__unit:nth-child(1) {
+    stroke: #fcd329;
+    stroke-dasharray: 69 68;
+    stroke-dashoffset: 57;
+    stroke-width: 1.5;
+}
+
+.diagram__unit:nth-child(2) {
+    stroke: #70a84b;
+    stroke-dasharray: 32 68;
+    stroke-dashoffset: 88;
+    stroke-width: 1.3;
+}
+
+.diagram__unit:nth-child(3) {
+    stroke: #ececec;
+    stroke-dasharray: 26 76;
+    stroke-dashoffset: 58;
+    stroke-width: 1.1;
+}

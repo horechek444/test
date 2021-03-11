@@ -1,0 +1,20 @@
+.loyalty__growth {
+    position: relative;
+    display: block;
+    color: #70a84b;
+    top: 0;
+    left: 10px;
+}
+
+.loyalty__growth::before {
+    position: absolute;
+    content: "";
+    top: 2px;
+    left: -23px;
+    border: 9px solid #ffffff;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-width: 0;
+    border-bottom-color: #70a84b;
+}
+

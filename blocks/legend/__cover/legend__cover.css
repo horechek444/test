@@ -1,0 +1,9 @@
+.legend__cover {
+    position: relative;
+    top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 33px;
+}

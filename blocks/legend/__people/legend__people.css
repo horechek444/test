@@ -1,0 +1,22 @@
+.legend__people {
+    display: block;
+    position: relative;
+    color: #9d9d9c;
+    margin-right: 18px;
+}
+
+.legend__people::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    background-image: url("../../../images/human_full-min.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13.5px;
+    height: 12px;
+}
+
+.legend__item:first-child .legend__people::after {
+    left: 18px;
+}

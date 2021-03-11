@@ -1,0 +1,35 @@
+.frame {
+    position: absolute;
+    top: 148px;
+    left: 20px;
+    height: 237.5px;
+    width: 22px;
+    border-left: solid 1px #9d9d9c;
+    border-top: solid 1px #9d9d9c;
+    border-bottom: solid 1px #9d9d9c;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.frame::after {
+    content: "";
+    position: absolute;
+    top: 210px;
+    left: -8px;
+    background-color: white;
+    background-image: url("../../images/plus_icon-icons.com_61187-min.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.frame::before {
+    content: "";
+    position: absolute;
+    top: 180px;
+    left: -1px;
+    border-top: solid 1px #9d9d9c;
+    width: 16px;
+    height: 1px;
+}

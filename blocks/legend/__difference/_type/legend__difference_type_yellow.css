@@ -1,0 +1,14 @@
+.legend__difference_type_yellow {
+    animation: scaleYellowOpacity 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaleYellowOpacity {
+    0% {
+        transform: initial;
+    }
+    100% {
+        transform-origin: left center 0;
+        transform: scaleX(27.5);
+    }
+}

@@ -1,0 +1,9 @@
+.loyalty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 85px;
+    left: 93px;
+    width: 144px;
+}

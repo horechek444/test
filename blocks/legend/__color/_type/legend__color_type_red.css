@@ -1,0 +1,15 @@
+.legend__color_type_red {
+    background-color: #ed5243;
+    animation: scaleRed 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaleRed {
+    0% {
+        transform: initial;
+    }
+    100% {
+        transform-origin: left center 0;
+        transform: scaleX(27);
+    }
+}
